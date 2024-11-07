@@ -8,7 +8,7 @@ public class Bill3 {
 	    int sum = Integer.parseInt(args[3]);
 		double seperate=sum/3.0;
 		seperate=Math.ceil(seperate);
-		System.out.println("Dear "+ name1 + ", " + name2 + ", and " + name3 + ": pay " + seperate + " Shekels each.");
+		System.out.println("Dear "+name1+", " +name2+", and "+name3+": pay "+seperate+" Shekels each");
 
 	}
 }
